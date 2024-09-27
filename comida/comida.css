@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    color: #fff;
+}
+/* Estilos para los logos en la parte superior derecha */
+.logo-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px; /* Espacio entre los dos logos */
+}
+
+.logo-container img {
+    width: 70px; /* Ajusta el tamaño del logo según lo necesites */
+    height: auto;
+}
+
+.collection {
+    height: 100vh;
+    background-image: url('tipico.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg' por el enlace o la ruta de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.collection .content {
+    height: 28rem;
+    width: 25rem;
+    background-color: #1b1f2a;
+    border: .2rem solid rgba(255,255,255,.1);
+    border-radius: .7rem;
+    border-bottom: .4rem solid #1d8d06be;
+    border-top: .4rem solid #a2c73d;
+    overflow: hidden;
+}
+
+.content img {
+    width: 100%;
+    border-bottom-left-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+}
+
+.text-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-content h3 {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.text-content p {
+    max-width: 15rem;
+    font-size: .7rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.btn {
+    background-color: #0099ff;
+    padding: .2rem;
+    border: 2px solid #0099ff;
+    outline: none;
+    font-size: .8rem;
+    border-radius: .5rem;
+    margin: 1rem 0;
+    cursor: pointer;
+}
