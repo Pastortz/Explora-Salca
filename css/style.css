@@ -152,6 +152,7 @@ header{
   padding:2rem 4%;
   gap: 1rem;
 }
+
 .logo {
   
  
@@ -834,6 +835,12 @@ header .search-bar-container label:hover{
 @media (max-width:768px){
 
   #menu-bar{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
     
   }
 
